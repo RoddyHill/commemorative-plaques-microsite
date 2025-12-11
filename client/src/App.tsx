@@ -10,8 +10,9 @@ import UnveilingPlaques from "./pages/UnveilingPlaques";
 import CeremonyGuide from "./pages/CeremonyGuide";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
-
+import AdminCMS from "./pages/AdminCMS";
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path="/" component={Home} />
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/ceremony-guide" component={CeremonyGuide} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/contact" component={Contact} />
+      <Route path="/admin/cms" component={AdminCMS} />
       <Route path="/404" component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
