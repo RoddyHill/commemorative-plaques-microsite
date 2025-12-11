@@ -14,3 +14,7 @@
 - [ ] Refactor Gallery page to consume dynamic content
 - [x] Test CMS functionality end-to-end
 - [x] Write vitest tests for CMS procedures
+
+## Footer Updates
+- [x] Add admin login link to footer
+- [ ] Commit changes to GitHub

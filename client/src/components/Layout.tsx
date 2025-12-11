@@ -181,6 +181,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
             <a href="#" className="hover:text-white transition-colors">Sitemap</a>
+            <Link href="/admin/cms"><a className="hover:text-white transition-colors opacity-50">Admin</a></Link>
           </div>
         </div>
       </footer>
